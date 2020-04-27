@@ -261,3 +261,53 @@ border: 2px solid #ff4229;
   margin-top: 35%;
   margin-left: 10%;
 }
+
+.jumbotron{
+  padding: 100px;
+}
+
+.links a{
+  margin-bottom: 20px;
+}
+
+/*media queries*/
+
+@media (max-width: 767px) {
+  .card-margin{
+    margin-bottom: 60px;
+  }
+
+  .marginBottom{
+    margin-bottom: 20px;
+  }
+
+  .links a{
+    margin-bottom: 20px;
+  }
+
+  .jumbotron, .mobile-padding{
+    padding: 50px 30px !important;
+  }
+
+  .social-innerdiv h3{
+    font-size: 18px;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 1024){
+  .card-margin{
+    margin-bottom: 60px;
+  }
+
+  .marginBottom{
+    margin-bottom: 20px;
+  }
+
+  .links a{
+    margin-bottom: 20px;
+  }
+
+  .jumbotron, .mobile-padding{
+    padding: 50px 30px !important;
+  }
+}
