@@ -1,4 +1,4 @@
-consoleText(['#Digital Marketing', '#Better Customer Experience', '#Social Media'], 'text',['#FF0034']);
+consoleText(['#Digital Marketing', '#Better Experience', '#Social Media'], 'text',['#FF0034']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#FF0034'];
