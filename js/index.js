@@ -48,3 +48,8 @@ function consoleText(words, id, colors) {
     }
   }, 200)
 }
+
+/*modal open on window load*/
+//$(document).ready(function(){
+  //  $("#myModal").modal('show');
+//});
