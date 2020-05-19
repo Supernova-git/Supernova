@@ -50,6 +50,6 @@ function consoleText(words, id, colors) {
 }
 
 /*modal open on window load*/
-//$(document).ready(function(){
-  //  $("#myModal").modal('show');
-//});
+    $(window).on('load',function(){
+        $('#myModal').modal('show');
+    });

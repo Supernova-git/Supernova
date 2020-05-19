@@ -17,24 +17,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- The Modal -->
 <div class="modal" id="myModal">
   <div class="modal-dialog">
-    <div class="modal-content">
+    <div class="modal-content subscibe-dialog">
 
       <!-- Modal Header -->
-      <div class="modal-header">
-        <h4 class="modal-title">Modal Heading</h4>
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      <div class="modal-header" style="border-bottom: 0px;">
+        <button type="button" class="close" data-dismiss="modal" style="color: #ffffff;">&times;</button>
       </div>
 
       <!-- Modal body -->
-      <div class="modal-body">
-        Modal body..
+      <div class="modal-body row modal-signup">
+        <div class="col-6">
+          <p>Exclusive Offers in your inbox</p>
+          <form action="mailto:supernovamarketing55@gmail.com" method="post" enctype="text/plain" class="needs-validation">
+            <div class="form-group">
+              <input class="form-control" type="text" name="" value="" placeholder="Please Enter your Email" required>
+            </div>
+            <div class="text-center">
+              <button class="btn btn-warning" type="button" name="button">Signup</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-6 text-center">
+          <img class="img-fluid" src="images/SUPERNOVA.png" alt="Supernova" title="Supernova">
+        </div>
       </div>
-
-      <!-- Modal footer -->
-      <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-      </div>
-
     </div>
   </div>
 </div>

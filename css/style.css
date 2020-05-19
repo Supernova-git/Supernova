@@ -270,6 +270,19 @@ border: 2px solid #ff4229;
   margin-bottom: 20px;
 }
 
+/*Home modal css*/
+.subscibe-dialog{
+    background: -webkit-linear-gradient(-70deg, #000000 47%, #ebebeb 50%);
+    background: -o-linear-gradient(-70deg, #000000 47%, #ebebeb 50%);
+    background: -moz-linear-gradient(-70deg, #000000 47%, #ebebeb 50%);
+    background: linear-gradient(-70deg, #000000 47%, #ebebeb 50%);
+    border: 0px !important;
+}
+
+.modal-signup{
+  padding: 100px 16px;
+}
+
 /*media queries*/
 
 @media (max-width: 767px) {
