@@ -283,6 +283,15 @@ border: 2px solid #ff4229;
   padding: 100px 16px;
 }
 
+/*About us page css*/
+
+.about-banner{
+  background-image: url('../images/aboutus-banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 120px;
+}
+
 /*media queries*/
 
 @media (max-width: 767px) {
